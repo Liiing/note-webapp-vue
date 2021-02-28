@@ -13,7 +13,7 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end">
-          <a class="button is-primary">
+          <a class="button is-primary" @click="$emit('onNoteAdd')">
             <strong>+</strong>
           </a>
         </div>
